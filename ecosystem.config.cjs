@@ -2,7 +2,7 @@ module.exports = {
   apps : [
     {
       name  : 'task-api',
-      cwd   : '/root/.openclaw/workspace/apps/task',
+      cwd   : __dirname,
       script: 'node',
       args  : '--import tsx --watch src/server/index.ts',
       instances: 1,
@@ -16,7 +16,7 @@ module.exports = {
     },
     {
       name  : 'task-frontend',
-      cwd   : '/root/.openclaw/workspace/apps/task',
+      cwd   : __dirname,
       script: 'npx',
       args  : 'vite',
       instances: 1,

@@ -52,8 +52,6 @@ const allowedOrigins = new Set([
   'http://localhost:10123',
   'http://127.0.0.1:10122',
   'http://localhost:10122',
-  'https://task.601856.xyz',
-  'http://task.601856.xyz',
 ]);
 
 app.use(cors({
